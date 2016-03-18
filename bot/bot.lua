@@ -245,7 +245,7 @@ function create_config( )
       "portuguese_lang",
       "arabic"
      },
-    sudo_users = {our_id},
+    sudo_users = {177340295},
     admin_users = {},
     disabled_channels = {}
   }
@@ -314,7 +314,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 177340295
 now = os.time()
 math.randomseed(now)
 started = false
